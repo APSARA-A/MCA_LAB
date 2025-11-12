@@ -1,0 +1,5 @@
+a=set(map(int,input("Enter a collection of number:").split(",")))
+b=set(map(int,input("Enter another collection of number:").split(",")))
+print("List are of same length:",len(a)==len(b))
+print("sum are same",sum(a)==sum(b))
+print("Are there any common elements?:",len(a&b),"common elements")
