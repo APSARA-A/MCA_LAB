@@ -1,0 +1,6 @@
+filename=input("enter file name:")
+file=open(filename,"r")
+word=file.read().split()
+longest=max(word,key=len)
+print("the longest word is:",longest)
+print("the length is:",len(word))
