@@ -1,0 +1,8 @@
+filename=input("enter file name:")
+file=open(filename,"r")
+lines=file.readlines()
+longest_line=max(lines,key=len)
+print("The lengthiest line is:")
+print(longest_line)
+print("length of this line:",len(longest_line))
+file.close()
